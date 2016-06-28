@@ -1,5 +1,5 @@
 body{
-	background-color: blue;
+	background-color: white;
 }
 
 /* Nav Bar */
@@ -24,8 +24,9 @@ body{
 }
 
 .nav li a:hover{
-	background-color: #111;
+  background-color: #111;
 }
+
 
 /*CSS for smiley face*/
 }.face{
