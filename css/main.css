@@ -27,6 +27,57 @@ body{
   background-color: #111;
 }
 
+.margins-padding{
+  border:2px solid blue;
+  margin: 50px 50px 50px 50px;
+  padding: 20px 20px 20px 40px;
+}
+#margin-demo {
+  width: 400px;
+
+}
+
+#margin-experiment{
+  height: 40px;
+  background: blue;
+  border: 5px solid pink;
+/*  margin-top: 50px;
+  margin-right: 250px;
+  margin-bottom: 200px;
+  margin-left: 200px;
+*/
+  margin: 0px 0px 0px 0px;
+
+}
+
+#margin-experiment2{
+  height: 40px;
+  background: blue;
+  border: 5px solid pink;
+/*  margin-top: 50px;
+  margin-right: 250px;
+  margin-bottom: 200px;
+  margin-left: 200px;
+*/
+  margin: 5px 10px 20px 0px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+
+#padding-experiment{
+  border: 2px solid yellow;
+  margin: 50px 250px 100px 100px;
+/*
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+*/
+  padding: 50px 50px 50px 50px;
+}
+
+
 
 /*CSS for smiley face*/
 }.face{
