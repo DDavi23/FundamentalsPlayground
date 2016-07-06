@@ -86,7 +86,7 @@ var friend = {
 	hasChildren: false
 
     //Method
-    
+
     printVocation  : function(){
     	return this.vocation;
     },
@@ -117,15 +117,7 @@ var keshaGlass = Object.create(friend);
 	    keshaGlass.married = false;
 	    keshaGlass.vocation = "Accountant";
 
-	    hasChildren : function(){
-    	if(this.yearsKnown >= 5 && this.closeLikeABrother == true && this.married == false){
-    		return "Mario likes you";
-    	} else {
-    		return "You are in the same boat as me";
-    	}
-    },
-
-}
+	    
 
 
 
